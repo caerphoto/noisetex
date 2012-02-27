@@ -25,3 +25,10 @@ The function is presented as a global variable, which is generally not ideal for
 non-trivial web sites/applications. If you&rsquo;re using some means of avoiding
 this, such as namespacing, it&rsquo; very easy to adapt the function to whatever
 system you&rsquo;re using.
+
+## Demo
+
+I used a minor variation (an immediately-invoked function expression, rather
+than a regular function) on [this page].
+
+[this page]: http://caerphoto.com/misc/the_waste_land.html
