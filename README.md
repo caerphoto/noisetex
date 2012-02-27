@@ -7,9 +7,18 @@ elements.
 
 ## Usage
 
-Simply call the `addNoise` function:
+Add the `noisetex.min.js` file to your page then simply call the `addNoise`
+function:
 
-    addNoise(document.body, 200, 0.05);
+```
+    <script src="noisetex.min.js"></script>
+
+    <script>
+      addNoise(document.body, 200, 0.05);
+    </script>
+  </body>
+</html>
+```
 
 The first parameter is the element to which you want to apply the noise texture.
 The second is the size of noise block to generate &ndash; larger blocks will
