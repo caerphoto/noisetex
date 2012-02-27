@@ -32,3 +32,12 @@ I used a minor variation (an immediately-invoked function expression, rather
 than a regular function) on [this page].
 
 [this page]: http://caerphoto.com/misc/the_waste_land.html
+
+## Browser Support
+
+Since it uses canvas, the function won't work in IE < 9. Tested in Chrome,
+Firefox 10, Safari 5, Opera 11, Mobile Safari and Opera Mini (latter two both on
+an iPhone 4S).
+
+On IE 6, 7 and 8, will just not do anything &ndash; no exceptions will be raised
+or anything.
