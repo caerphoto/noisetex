@@ -40,7 +40,14 @@ system you&rsquo;re using.
 I used a minor variation (an immediately-invoked function expression, rather
 than a regular function) on [this page].
 
+For a more advanced usage, there is also an [animated example] that, while using
+the same basic &lsquo;generate noise then tile it&rsquo; technique, does so
+directly onto a large canvas overlaid on an image. Performance on my 2.4GHz
+MacBook Pro is high enough for about 35&ndash;40 frames per second on a
+770&times;700 pixel canvas, using a 200 pixel square noise block.
+
 [this page]: http://caerphoto.com/misc/the_waste_land.html
+[animated example]: http://caerphoto.com/noise.html
 
 ## Browser Support
 
