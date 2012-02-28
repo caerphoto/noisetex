@@ -32,13 +32,14 @@ Maximum value is 1.
 
 The function is presented as a global variable, which is generally not ideal for
 non-trivial web sites/applications. If you&rsquo;re using some means of avoiding
-this, such as namespacing, it&rsquo; very easy to adapt the function to whatever
+this, such as namespacing, it&rsquo;s very easy to adapt the function to whatever
 system you&rsquo;re using.
 
 ## Demo
 
 I used a minor variation (an immediately-invoked function expression, rather
-than a regular function) on [this page].
+than a regular function) on [this page]. The [mockup] for a UI overhaul
+I&rsquo;m planning for my [Soda] application uses the fuction pretty much as-is.
 
 For a more advanced usage, there is also an [animated example] that, while using
 the same basic &lsquo;generate noise then tile it&rsquo; technique, does so
@@ -47,6 +48,8 @@ MacBook Pro is high enough for about 35&ndash;40 frames per second on a
 770&times;700 pixel canvas, using a 200 pixel square noise block.
 
 [this page]: http://caerphoto.com/misc/the_waste_land.html
+[mockup]: http://caerphoto.com/misc/soda_mockup.html
+[Soda]: http://soda.heroku.com/
 [animated example]: http://caerphoto.com/noise.html
 
 ## Browser Support
