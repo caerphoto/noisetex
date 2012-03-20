@@ -41,7 +41,11 @@ if (typeof addNoise !== "function") {
 
             // 4th number is alpha.
             rand = Math.random();
-            // Binary OR is slightly faster than Math.round()
+            // Bitwise OR is about 30% to 50% faster than Math.floor() in most
+            // browsers, according to:
+            // http://jsperf.com/math-floor-vs-math-round-vs-parseint/33
+            // Note that the operation is actually a truncation, so for negative
+            // numbers will behave like Math.ceil().
             pixels[x + 3] = (255 * rand * rand * alpha) | 0;
         }
 

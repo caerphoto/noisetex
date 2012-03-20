@@ -37,20 +37,13 @@ system you&rsquo;re using.
 
 ## Demo
 
-I used a minor variation (an immediately-invoked function expression, rather
-than a regular function) on [this page]. The [mockup] for a UI overhaul
-I&rsquo;m planning for my [Soda] application uses the fuction pretty much as-is.
+I created [this version] of T S Eliot&rsquo;s The Waste Land using the script.
+The [mockup] for a UI overhaul I&rsquo;m planning for my [Soda] application also
+uses it for the Preview display.
 
-For a more advanced usage, there is also an [animated example] that, while using
-the same basic &lsquo;generate noise then tile it&rsquo; technique, does so
-directly onto a large canvas overlaid on an image. Performance on my 2.4GHz
-MacBook Pro is high enough for about 35&ndash;40 frames per second on a
-770&times;700 pixel canvas, using a 200 pixel square noise block.
-
-[this page]: http://caerphoto.com/misc/the_waste_land.html
+[this version]: http://caerphoto.com/misc/the_waste_land.html
 [mockup]: http://caerphoto.com/misc/soda_mockup.html
 [Soda]: http://soda.heroku.com/
-[animated example]: http://caerphoto.com/noise.html
 
 ## Browser Support
 
