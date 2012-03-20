@@ -37,9 +37,9 @@ system you&rsquo;re using.
 
 ## Demo
 
-I created [this version] of T S Eliot&rsquo;s The Waste Land using the script.
-The [mockup] for a UI overhaul I&rsquo;m planning for my [Soda] application also
-uses it for the Preview display.
+I created the background textures on [this version] of T. S. Eliot&rsquo;s The
+Waste Land using the script.  The [mockup] for a UI overhaul I&rsquo;m planning
+for my [Soda] application also uses it for the Preview display.
 
 [this version]: http://caerphoto.com/misc/the_waste_land.html
 [mockup]: http://caerphoto.com/misc/soda_mockup.html
